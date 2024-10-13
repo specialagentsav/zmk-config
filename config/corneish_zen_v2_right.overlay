@@ -11,6 +11,10 @@
 
 
 /{
+    &default_transform {
+   col-offset = <n>;
+    };
+
     chosen {
         zephyr,display = &epd;
         zmk,battery = &vbatt;
