@@ -23,11 +23,11 @@
 #include:
 #  - board: corneish_zen_v1_left
 #  - board: corneish_zen_v1_right
-#include:
-#  - board: corneish_zen_v2_left
-#  - board: corneish_zen_v2_right
 include:
   - board: corneish_zen_v2_left
-    shield: settings_reset
   - board: corneish_zen_v2_right
-    shield: settings_reset
+#include:
+#  - board: corneish_zen_v2_left
+#    shield: settings_reset
+#  - board: corneish_zen_v2_right
+#    shield: settings_reset
